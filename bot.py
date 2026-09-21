@@ -17,7 +17,7 @@ exchange = ccxt.kraken({
     'secret': os.getenv('KRAKEN_SECRET'),
     'enableRateLimit': True,
 })
-sb = create_client(os.environ['SUPABASE_URL'], os.environ['SUPABASE_SERVICE_KEY'])
+sb = create_client(os.environ['https://xsuwbwisaobneimlogmw.supabase.co/rest/v1/'], os.environ['eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhzdXdid2lzYW9ibmVpbWxvZ213Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4OTk1NTgyMCwiZXhwIjoyMTA1NTMxODIwfQ.YvxiaMM6ayJhNUJ4sIUijncv3lkSEwYiqFXnwa2uYj0'])
 
 
 def now_iso():
